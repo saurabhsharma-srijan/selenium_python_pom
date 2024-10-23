@@ -27,12 +27,8 @@ class Contact_Page:
     def clickSubmitButton(self):
         self.driver.find_element(By.XPATH,self.loginButton_submit_xpath).click()
 
-    def clickLoginLink(self):
+    def clickContactLink(self):
         self.driver.find_element(By.XPATH,self.link_login_xpath).click()
-
-    def clickLogoutLink(self):
-        self.driver.find_element(By.XPATH,self.link_logout_xpath).click()
-
 
 
 
