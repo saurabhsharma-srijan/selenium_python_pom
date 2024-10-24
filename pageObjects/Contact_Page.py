@@ -29,9 +29,3 @@ class Contact_Page:
 
     def clickContactLink(self):
         self.driver.find_element(By.XPATH,self.link_login_xpath).click()
-
-
-
-
-
-
