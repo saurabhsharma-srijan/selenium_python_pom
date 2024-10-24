@@ -37,7 +37,7 @@ class Test_002_DDT_Login():
             exp_title="Automation Exercise"
 
             if act_title == exp_title:
-                print("title is expected")
+                print("page title is expected")
                 if self.exp=='Yes':
                     self.logger.info("**** test data is passed ****")
                     status_list.append("Pass")
@@ -63,5 +63,4 @@ class Test_002_DDT_Login():
             self.logger.error("******* DDT Login test failed **********")
             self.driver.close()
             assert False
-
-        self.logger.info("******* End of Login DDT Test **********")
+        self.logger.info("******* End of Login Data Driven Test **********")
