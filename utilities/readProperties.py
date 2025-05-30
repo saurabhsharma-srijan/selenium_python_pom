@@ -3,9 +3,10 @@ import configparser
 # Create a ConfigParser object
 config = configparser.RawConfigParser()
 # Read the config.ini file
-config.read("/Users/saurabh.sharma/PycharmProjects/pythonProjectPOM/Configurations/config.ini")
+config.read("/Users/saurabh.sharma/PycharmProjects/PytestSeleniumFramework/Configurations/config.ini")
 
 class ReadConfig():
+
     @staticmethod
     def getApplicationUrl():
         url = config.get('URL', 'baseurl')
