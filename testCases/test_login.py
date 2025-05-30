@@ -30,7 +30,7 @@ class Test_Login:
         self.lp.setPassword(self.password)
         self.lp.clickSubmitButton()
         act_title = self.driver.title
-        if act_title == "Automation Exercise123":
+        if act_title == "Automation Exercise":
             print("****Login test passed ****")
             assert True
             print("on dashboard page screen")
